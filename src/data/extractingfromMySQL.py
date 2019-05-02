@@ -2,10 +2,10 @@ import pymysql
 
 
 connectionString = {
-    'host': '34.66.111.105',
+    'host': 'DatabaseIP',
     'username': 'root',
-    'password': 'Iamawesome247',
-    'db': 'test_titanic'
+    'password': 'YourPW',
+    'db': 'yourDB'
 }
 
 conn = pymysql.connect(connectionString['host'], connectionString['username'], connectionString['password']
